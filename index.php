@@ -13,10 +13,7 @@ $host = htmlspecialchars($_POST['clip']);
 if (strlen($host) > 10000) {echo "That definitely seems fish'e! Bye!";exit;}
 elseif (strlen($host) < 1) {echo "";exit;}
 elseif($host == "#CS") { file_put_contents("index.htm", "<meta http-equiv=refresh content=0><script>function pS() {var tim; window.scrollBy(0, 10); tim = setTimeout('pS()', 1);}</script><body onload=pS()>");exit;}
-if(!empty($_POST['clip'])) {
     $logfile = fopen('index.htm', 'a+');
     fwrite($logfile, "\n" . "<small>" . $ip . " &raquo; " . $today . "</small> &raquo; <strong>" .  $host . "</strong><hr>");
     fclose($logfile);
-    }//}
-else { echo 'Error while saving to Clipboard!';exit;}
 ?></strong></body>
