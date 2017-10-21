@@ -1,4 +1,3 @@
-<link rel="stylesheet" type="text/css" href="../remove.css">
 <title>CLIP</title><style>body{padding-top: 2%;} ::selection {color:red;background:black;} ::-moz-selection {color:red;background:black;}</style><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body bgcolor=efefef link=red vlink=red><center><h3><span style="color:#9c353a">MESSENGER</span></h3><hr noshade>
 
