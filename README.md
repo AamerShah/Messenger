@@ -19,6 +19,6 @@ The messenger does not require JavaScript at all. Thus applicable on older (mobi
 I have implemented kill command to clear all messages. User Input of "#CS" will clear all the messages while adding auto-scroller (javaScript based). You may change this in the code however.
 
 ## API
-Demo for this is hosted at: api.aamer.xyz/messenger
+Demo for this is hosted at: tools.aamer.xyz/messenger
 
 ### -Aamer Shah (aamer.xyz/?g)
